@@ -1,0 +1,26 @@
+X: 1
+T: 蒲公英的约定
+M: 4/4
+L: 1/8
+Q: 120
+K: C
+%%stretchlast .7
+%%staves {(PianoRightHand) (PianoLeftHand)}
+V:PianoRightHand clef=treble
+V:PianoLeftHand clef=bass
+[V: PianoRightHand]
+z2 z2 EG ce |: e3 f d4 | d2 gB c4 | ef gc c2 d2 | %4
+[1 e4 EG ce :|[2 c4 zE F(G|: G)G G G2 A B(c | c4) cB d(A | %8
+A)G Gd zc e3/2(e1/2 | e4) cd e(e | e)e f e2 d e(c | c)z z2 AB c(d | %12
+d)c B A2 e f(d | [1 d4) zE FG :| [2 d4 EG ce] | e3 f d4 | %16
+d2 gB c4 | ef gc c2 d2 | c8 | z2 z2 ag ed1/2c1/2 | %4
+e3 f d4 | a g2 B c4 | ef gc c2 d(e | e4) EG ce | %8
+e3 d d4 | d2 gB d(c c2) | ef fc c2 d2 | c8 |] %12
+[V: PianoLeftHand]
+z8 |: F,4 G,4 | E,4 A,4 | F,4 G,4 | %4
+[1 C,8 :| [2 C,8 |: C,4 G,4 | A,8 | %8
+F,4 G,4 | C,8 | F,4 G,4 | A,8 | %12
+F,8 | [1 G,8 :| [2 G,8] | F,4 G,4 | %16
+E,4 A,4 | F,4 G,4 | C,8 | z8 | %4
+F,4 G,4 | E,4 A,4 | F,4 G,4 | C,8 | %8
+F,4 G,4 | E,4 A,4 | F,4 G,4 | C,8 |] %12
