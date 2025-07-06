@@ -1,0 +1,14 @@
+X: 1      %曲号
+T: temp   %标题
+M: 4/4    %节拍
+L: 1/8    %音符时值
+Q: 100    %速度
+K: C      %调号
+%%stretchlast .7
+%%staves {(PianoRightHand) (PianoLeftHand)}
+V:PianoRightHand clef=treble
+V:PianoLeftHand clef=bass
+[V: PianoRightHand]
+|: z8 | z8 | C D E F G A B c | c d e f g a b c' :|
+[V: PianoLeftHand]
+|: C,, D,, E,, F,, G,, A,, B,, C, | C, D, E, F, G, A, B, C | z8 | z8 :|
