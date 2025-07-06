@@ -1,0 +1,22 @@
+X: 1
+T: 友谊天长地久
+M: 2/4
+L: 1/16
+Q: 70
+K: C
+%%stretchlast .7
+%%staves {(PianoRightHand) (PianoLeftHand)}
+V:PianoRightHand clef=treble
+V:PianoLeftHand clef=bass
+[V: PianoRightHand]
+z4 G4 | c3c c2e2 | d3c d2e2 | c3c e2g2 | %4
+a6 a2 | g3e e2c2 | d3c d2e2 | c3A A2G2 | %8
+c6 a2 | g3e e2c2 | d3c d2a2 | g3e e2g2 | %12
+a6 a2 | g3e e2c2 | d3c d2e2 | c3A A2G2 | %16
+c8 | z16 | z16 | z16 | %20
+[V: PianoLeftHand]
+z8 | C,8 | G,8 | C,8 |
+F,8 | C,8 | G,8 | F,8 |
+C,8 | C,8 | F,8 | C,8 |
+F,8 | C,8 | G,8 | F,8 |
+C,8 | z16 | z16 | z16 |
