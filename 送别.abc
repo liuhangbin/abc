@@ -1,0 +1,20 @@
+X: 1
+T: 送别
+M: 4/4
+L: 1/8
+Q: 100
+K: C
+%%stretchlast .7
+%%staves {(PianoRightHand) (PianoLeftHand)}
+V:PianoRightHand clef=treble
+V:PianoLeftHand clef=bass
+[V: PianoRightHand]
+g2 eg c'4 | a2 c'2 g4 | g2 cd e2 dc | d4 z2 z2 | %4
+g2 eg c'3 b | a2 c'2 g4 | g2 de f3 B | c4 z2 z2 | %8
+a2 c'2 c'4 | b2 ab c'4 | ab c'a ag ec | d4 z2 z2 | %12
+g2 eg c'3 b | a2 c'2 g4 | g2 de f3 B | c4 z2 z2 | %16
+[V: PianoLeftHand]
+[C,8 E,8 G,8] | [F,,8 A,,8 C,8] | [C,8 E,8 G,8] | [G,,8 B,,8 D,8]
+[C,8 E,8 G,8] | [F,,8 A,,8 C,8] | [G,,8 B,,8 D,8] | [C,8 E,8 G,8]
+[F,,8 A,,8 C,8] | [G,,8 B,,8 D,8] | [F,,8 A,,8 C,8] | [G,,8 B,,8 D,8]
+[C,8 E,8 G,8] | [F,,8 A,,8 C,8] | [G,,8 B,,8 D,8] | [C,8 E,8 G,8]
