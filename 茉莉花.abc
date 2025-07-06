@@ -1,0 +1,24 @@
+X: 1
+T: 茉莉花
+M: 2/4
+L: 1/8
+Q: 100
+K: C
+%%stretchlast .7
+%%staves {(PianoRightHand) (PianoLeftHand)}
+V:PianoRightHand clef=treble
+V:PianoLeftHand clef=bass
+[V: PianoRightHand]
+|: e2 eg | ac' c'a | g2 ga | g4 :| %4
+g2 g2 | g2 eg | a2 ag | g4 | %8
+e2 de | g2 ed | c2 cd | c4 | %12
+ed ce | d3 e | g2 ac' | g4 | %16
+d2 eg | de cA | G4 | A2 c2 | %20
+d3 e | cd cA | (G4 | G4) | %24
+[V: PianoLeftHand]
+|: C,4 | F,4 | G,4 | C,4 :|
+C,4 | C,4 | F,4 | G,4 |
+C,4 | F,4 | G,4 | C,4 |
+C,4 | G,4 | G,4 | C,4 |
+C,4 | F,4 | G,4 | F,4 |
+G,4 | F,4 | C,4 | z4 |
