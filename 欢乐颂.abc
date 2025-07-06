@@ -1,0 +1,20 @@
+X: 1
+T: 欢乐颂
+M: 4/4
+L: 1/4
+Q: 146
+K: C
+%%stretchlast .7
+%%staves {(PianoRightHand) (PianoLeftHand)}
+V:PianoRightHand clef=treble
+V:PianoLeftHand clef=bass
+[V: PianoRightHand]
+e e f g | g f e d | c c d e | e d d2 | %4
+e e f g | g f e d | c c d e | d c c2 | %8
+d d e c | d e1/2f1/2 e c| d e1/2f1/2 e d | c d z2 | %12
+e e f g | g f e d | c c d e | d c c2 | %16
+[V: PianoLeftHand]
+C,4 | G,4 | C,4 | G,4 |
+C,4 | G,4 | C,4 | G,4 |
+G,4 | G,4 | G,4 | C,2 G,2 |
+C,4 | G,4 | C,4 | G,2 C,2 |
