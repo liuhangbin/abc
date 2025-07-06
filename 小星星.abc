@@ -1,0 +1,24 @@
+X: 1
+T: 小星星
+M: 2/4
+L: 1/4
+Q: 100
+K: C
+%%stretchlast .7
+%%staves {(PianoRightHand) (PianoLeftHand)}
+V:PianoRightHand clef=treble
+V:PianoLeftHand clef=bass
+[V: PianoRightHand]
+c c | g g | a a | g2 |
+f f | e e | d d | c2 |
+g g | f f | e e | d2 |
+g g | f f | e e | d2 |
+c c | g g | a a | g2 |
+f f | e e | d d | c2 |
+[V: PianoLeftHand]
+C,2 | z2 | F,2 | z2 |
+C,2 | z2 | G,2 | z2 |
+C,2 | z2 | G,2 | z2 |
+C,2 | z2 | G,2 | z2 |
+C,2 | z2 | F,2 | z2 |
+C,2 | z2 | G,2 | z2 |
